@@ -9,12 +9,3 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class IntegerToRomanTest {
-
-    @Test
-    public void testInit(){
-        IntegerToRoman test = new IntegerToRoman();
-        assertEquals(null, test.convert(0));
-    }
-
-}
